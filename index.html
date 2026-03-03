@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Төгөлдөр Portfolio</title>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      margin: 20px auto;
+      width: 320px;
+      border-radius: 12px;
+    }
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+    button {
+      padding: 10px 15px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Төгөлдөр – Web Developer</h1>
+  <p>Information Technology Student</p>
+
+<button onclick="toggleMode()">Toggle Dark/Light</button>
+
+  <div class="card">
+    <h3>University Management System</h3>
+    <p>Java Swing Desktop Application</p>
+  </div>
+
+  <div class="card">
+    <h3>Training Course Registration</h3>
+    <p>PHP & MySQL Web System</p>
+  </div>
+
+  <p>Email: tuguldur.baya@ulaanbaatar.edu.mn</p>
+  <p>
+    GitHub:
+    <a href="https://github.com/tugu4u" target="_blank">
+      github.com/tugu4u
+    </a>
+  </p>
+
+<script>
+function toggleMode() {
+  if (document.body.style.backgroundColor === "white") {
+    document.body.style.backgroundColor = "#0f172a";
+    document.body.style.color = "white";
+  } else {
+    document.body.style.backgroundColor = "white";
+    document.body.style.color = "black";
+  }
+}
+</script>
+
+</body>
+</html>
